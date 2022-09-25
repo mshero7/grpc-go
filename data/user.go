@@ -1,10 +1,10 @@
 package data
 
 import (
-	userpb "github.com/mshero7/go-grpc-example/protos/v1/user"
+	userpb "github.com/mshero7/go-grpc/protos/v1/user"
 )
 
-var UserData = []*userpb.UserMessage{
+var Users = []*userpb.UserMessage{
 	{
 		UserId: "1",
 		Name: "Henry",
