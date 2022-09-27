@@ -4,6 +4,7 @@ package v1.user;
 
 option go_package = "github.com/mshero7/go-grpc/protos/v1/user";
 
+// User API Service
 service User {
     rpc GetUser(GetUserRequest) returns (GetUserResponse);
     rpc ListUsers(ListUsersRequest) returns (ListUsersResponse);
